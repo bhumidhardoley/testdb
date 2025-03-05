@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+}
+
+.login {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid blanchedalmond;
+    padding: 44px;
+}
+.input {
+    padding: 8px;
+    width: 298px;
+}
+
+.button {
+    cursor: pointer;
+    width: 298px;
+    padding: 8px;
+    background-color:#0095f6 ;
+    border: none;
+}
+.button:hover {
+    background-color: #1877f2;
+}
+
+.register-link {
+    color:#0095f6 ;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    color: #00367b;
+}
+
+.forgot {
+    text-decoration: none;
+    color: #0095f6;
+}
+.forgot:hover {
+    color: #00376b;
+}
